@@ -33,6 +33,11 @@ We have an account named Robin for demonstration purposes. She is a friend of Al
 
 `aws-valult login robin`
 
+### running a command
+
+`aws-vault exec robin aws s3 ls`
+`
+
 
 Keep in mind that you need to configure poermissions to successfully login otherwise you may get an error like this:
 
